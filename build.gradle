@@ -1,0 +1,27 @@
+subprojects {
+    repositories {
+        mavenCentral()
+    }
+
+    apply plugin: 'java'
+    apply plugin: 'idea'
+    apply plugin: 'java-library'
+
+    group 'com.module'
+
+    tasks.withType(JavaCompile){
+        options.encoding = 'UTF-8'
+    }
+
+    java {
+        sourceCompatibility = 17
+        targetCompatibility = 17
+    }
+
+    dependencies {
+        compileOnly 'org.projectlombok:lombok:1.18.26'
+        annotationProcessor 'org.projectlombok:lombok:1.18.26'
+        testCompileOnly 'org.projectlombok:lombok:1.18.26'
+        testAnnotationProcessor 'org.projectlombok:lombok:1.18.26'
+    }
+}
