@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22341651-9dd0-45c2-9232-b09800641ad8" name="Changes" comment="add readme">
-      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/customer/config/MariaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/customer/mapper/CustomerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/resources/mapper/customer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maria-core/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maria-core/src/main/java/com/module/maria/config/MariaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api1/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/customer/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api1/src/main/java/com/module/api1/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/customer/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api1/src/main/java/com/module/api1/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/customer/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api1/src/main/resources/dev/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api1/src/main/resources/local/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api1/src/main/resources/prod/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +39,9 @@
         <task path="$PROJECT_DIR$/api1">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/customer">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -36,11 +52,18 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="myModules" type="f1a62948:ProjectNode" />
+                <item name="customer" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="myModules" type="f1a62948:ProjectNode" />
+                <item name="customer" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="myModules" type="f1a62948:ProjectNode" />
+                <item name="customer" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
               </path>
@@ -55,6 +78,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -75,22 +99,26 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/api1/src/main/resources" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/customer/src/main/java/com" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.12953371" />
     <property name="project.structure.side.proportion" value="0.14903128" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace\myModules" />
       <recent name="C:\workspace\myModules\api1\src\main\resources" />
       <recent name="C:\workspace\myModules\api1\src\main\resources\prod" />
       <recent name="C:\workspace\myModules\api1\src\main\resources\local" />
-      <recent name="C:\workspace\myModules" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.customer.config" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.myModules [clean]">
+  <component name="RunManager" selected="Spring Boot.Application">
     <configuration name="myModules [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -133,18 +161,91 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="myModules:customer [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/customer" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="myModules:customer [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/customer" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="generated-requests#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="myModules.api1.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.module.api1.Application" />
+    <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="myModules.customer.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.customer.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="myModules.customer.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.customer.api.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.myModules [build]" />
+      <item itemvalue="Gradle.myModules [clean]" />
+      <item itemvalue="Gradle.myModules:customer [build]" />
+      <item itemvalue="Gradle.myModules:customer [clean]" />
+      <item itemvalue="HTTP Request.generated-requests#2" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.Application (1)" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.myModules:customer [build]" />
+        <item itemvalue="Gradle.myModules:customer [clean]" />
         <item itemvalue="Gradle.myModules [clean]" />
         <item itemvalue="Gradle.myModules [build]" />
         <item itemvalue="HTTP Request.generated-requests#2" />
@@ -166,7 +267,8 @@
       <workItem from="1679324656077" duration="584000" />
       <workItem from="1679402198691" duration="3638000" />
       <workItem from="1679569786981" duration="117000" />
-      <workItem from="1679580246941" duration="1357000" />
+      <workItem from="1679580246941" duration="1719000" />
+      <workItem from="1679815684672" duration="11318000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1679581384460</created>
@@ -182,7 +284,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679581602622</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add readme">
+      <created>1679581703270</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679581703270</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add readme">
+      <created>1679581730146</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679581730146</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +326,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />

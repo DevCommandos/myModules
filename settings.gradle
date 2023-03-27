@@ -1,4 +1,5 @@
 rootProject.name = 'myModules'
-include 'api1'
+include 'customer'
 include 'library'
+include 'maria-core'
 
