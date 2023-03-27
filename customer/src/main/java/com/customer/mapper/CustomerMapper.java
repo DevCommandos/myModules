@@ -10,4 +10,6 @@ public interface CustomerMapper {
 
     List<Map<String, Object>> selectById() throws Exception;
 
+    Integer insertCustomer() throws Exception;
+
 }

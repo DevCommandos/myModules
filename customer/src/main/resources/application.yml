@@ -4,6 +4,6 @@ server:
 spring:
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
-    url: jdbc:mysql://{url}:{port}/{db스키마}
-    username: {id}
-    password: {password}
+    url: jdbc:mariadb://localhost:3306/customer
+    username: devcommandos
+    password: 1234

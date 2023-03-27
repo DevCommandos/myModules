@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.customer.mapper.OrderMasterMapper">
+
+    <insert id="insertOrderMaster">
+        INSERT INTO order_master (customer_id, order_date, total_amount, created_by, updated_by)
+        VALUES (11, '2022-08-17 12:00:00', 4814.00, 'admin', 'admin')
+    </insert>
+
+</mapper>

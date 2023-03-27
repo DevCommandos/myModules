@@ -3,7 +3,12 @@
 <mapper namespace="com.customer.mapper.CustomerMapper">
 
     <select id="selectById" resultType="java.util.Map">
-        SELECT 1
+        SELECT * FROM customer
     </select>
+
+    <insert id="insertCustomer">
+        INSERT INTO customer (name, address, phone, email, created_by, updated_by)
+        VALUES ('jihwan', '123 Main St, Anytown USA', '123-456-7890', 'jihwan.doe@example.com', 'admin', 'admin')
+    </insert>
 
 </mapper>
