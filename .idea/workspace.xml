@@ -4,17 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22341651-9dd0-45c2-9232-b09800641ad8" name="Changes" comment="modify">
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/customer/mapper/OrderMasterMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/customer/service/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/customer/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/resources/mapper/customer/orderMasterMapper.xml" afterDir="false" />
+    <list default="true" id="22341651-9dd0-45c2-9232-b09800641ad8" name="Changes" comment="트랜잭션 TEST">
+      <change afterPath="$PROJECT_DIR$/redis-test/README.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-test/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-test/build/bootJarMainClassName" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-test/build/libs/customer-plain.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-test/build/libs/customer.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-test/build/resources/main/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-test/build/tmp/bootJar/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-test/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-test/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-test/src/main/java/com/redisTest/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-test/src/main/java/com/redisTest/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-test/src/main/java/com/redisTest/config/RedisEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-test/src/main/java/com/redisTest/controller/RedisController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-test/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/customer/config/MariaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/customer/config/MariaConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/customer/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/customer/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/customer/mapper/CustomerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/customer/mapper/CustomerMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/resources/mapper/customer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/resources/mapper/customer/customerMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maria-core/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maria-core/src/main/java/com/module/maria/config/MariaConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +46,9 @@
         <task path="$PROJECT_DIR$/customer">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/redis-test">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -48,20 +59,20 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="myModules" type="f1a62948:ProjectNode" />
-                <item name="customer" type="2d1252cf:ModuleNode" />
+                <item name="redis-test" type="2d1252cf:ModuleNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="myModules" type="f1a62948:ProjectNode" />
-                <item name="customer" type="2d1252cf:ModuleNode" />
+                <item name="redis-test" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="myModules" type="f1a62948:ProjectNode" />
-                <item name="customer" type="2d1252cf:ModuleNode" />
+                <item name="redis-test" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
+                <item name="application" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -75,6 +86,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -95,8 +107,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/customer/src/main/java/com" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/customer/src/main/resources/mapper/customer" />
+    <property name="jdk.selected.JAVA_MODULE" value="17" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/redis-test/src/main/java/com" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.12953371" />
@@ -105,8 +118,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\workspace\myModules\customer\src\main\resources\mapper\customer" />
       <recent name="C:\workspace\myModules" />
+      <recent name="C:\workspace\myModules\customer\src\main\resources\mapper\customer" />
       <recent name="C:\workspace\myModules\api1\src\main\resources" />
       <recent name="C:\workspace\myModules\api1\src\main\resources\prod" />
       <recent name="C:\workspace\myModules\api1\src\main\resources\local" />
@@ -120,28 +133,7 @@
       <recent name="com.customer.config" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
-    <configuration name="myModules [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="HTTP Request.generated-requests#4">
     <configuration name="myModules:customer [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -163,10 +155,10 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="myModules:customer [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="myModules:redis-test [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/customer" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/redis-test" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -174,7 +166,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="clean" />
+            <option value="bootRun" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -190,6 +182,9 @@
     <configuration name="generated-requests#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" runType="Run single request">
       <method v="2" />
     </configuration>
+    <configuration name="generated-requests#4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="4" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -197,6 +192,15 @@
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application redis-test" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="myModules.redis-test.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.redisTest.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -211,20 +215,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.myModules [clean]" />
       <item itemvalue="Gradle.myModules:customer [build]" />
-      <item itemvalue="Gradle.myModules:customer [clean]" />
-      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Gradle.myModules:redis-test [bootRun]" />
       <item itemvalue="HTTP Request.generated-requests#1" />
       <item itemvalue="HTTP Request.generated-requests#2" />
+      <item itemvalue="HTTP Request.generated-requests#4" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.Application redis-test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.generated-requests#1" />
+        <item itemvalue="HTTP Request.generated-requests#4" />
         <item itemvalue="HTTP Request.generated-requests#2" />
+        <item itemvalue="HTTP Request.generated-requests#1" />
+        <item itemvalue="Gradle.myModules:redis-test [bootRun]" />
         <item itemvalue="Gradle.myModules:customer [build]" />
-        <item itemvalue="Gradle.myModules:customer [clean]" />
-        <item itemvalue="Gradle.myModules [clean]" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +250,11 @@
       <workItem from="1679569786981" duration="117000" />
       <workItem from="1679580246941" duration="1719000" />
       <workItem from="1679815684672" duration="11318000" />
-      <workItem from="1679923040410" duration="5322000" />
+      <workItem from="1679923040410" duration="5547000" />
+      <workItem from="1680097958625" duration="1242000" />
+      <workItem from="1680442242548" duration="14000" />
+      <workItem from="1680442268220" duration="2057000" />
+      <workItem from="1680619804059" duration="3018000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1679581384460</created>
@@ -282,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679923090492</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="트랜잭션 TEST">
+      <created>1679932620387</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679932620387</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,6 +333,7 @@
     <MESSAGE value="add readme" />
     <MESSAGE value="modifu" />
     <MESSAGE value="modify" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify" />
+    <MESSAGE value="트랜잭션 TEST" />
+    <option name="LAST_COMMIT_MESSAGE" value="트랜잭션 TEST" />
   </component>
 </project>

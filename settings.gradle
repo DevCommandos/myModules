@@ -1,5 +1,6 @@
 rootProject.name = 'myModules'
 include 'customer'
 include 'library'
-include 'maria-core'
+include 'redis-test'
+
 
