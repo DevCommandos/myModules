@@ -4,25 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22341651-9dd0-45c2-9232-b09800641ad8" name="Changes" comment="트랜잭션 TEST">
-      <change afterPath="$PROJECT_DIR$/redis-test/README.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-test/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-test/build/bootJarMainClassName" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-test/build/libs/customer-plain.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-test/build/libs/customer.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-test/build/resources/main/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-test/build/tmp/bootJar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-test/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-test/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-test/src/main/java/com/redisTest/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-test/src/main/java/com/redisTest/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-test/src/main/java/com/redisTest/config/RedisEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-test/src/main/java/com/redisTest/controller/RedisController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-test/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="22341651-9dd0-45c2-9232-b09800641ad8" name="Changes" comment="레디스 모듈 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maria-core/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maria-core/src/main/java/com/module/maria/config/MariaConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,20 +42,13 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="myModules" type="f1a62948:ProjectNode" />
-                <item name="redis-test" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="myModules" type="f1a62948:ProjectNode" />
-                <item name="redis-test" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="myModules" type="f1a62948:ProjectNode" />
-                <item name="redis-test" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="application" type="c8890929:TasksNode$1" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -133,11 +109,11 @@
       <recent name="com.customer.config" />
     </key>
   </component>
-  <component name="RunManager" selected="HTTP Request.generated-requests#4">
-    <configuration name="myModules:customer [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.myModules [clean]">
+    <configuration name="myModules [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/customer" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -145,7 +121,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="build" />
+            <option value="clean" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -215,8 +191,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.myModules:customer [build]" />
       <item itemvalue="Gradle.myModules:redis-test [bootRun]" />
+      <item itemvalue="Gradle.myModules [clean]" />
       <item itemvalue="HTTP Request.generated-requests#1" />
       <item itemvalue="HTTP Request.generated-requests#2" />
       <item itemvalue="HTTP Request.generated-requests#4" />
@@ -225,11 +201,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.myModules [clean]" />
         <item itemvalue="HTTP Request.generated-requests#4" />
         <item itemvalue="HTTP Request.generated-requests#2" />
         <item itemvalue="HTTP Request.generated-requests#1" />
         <item itemvalue="Gradle.myModules:redis-test [bootRun]" />
-        <item itemvalue="Gradle.myModules:customer [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -255,6 +231,8 @@
       <workItem from="1680442242548" duration="14000" />
       <workItem from="1680442268220" duration="2057000" />
       <workItem from="1680619804059" duration="3018000" />
+      <workItem from="1680867944427" duration="129000" />
+      <workItem from="1682342543025" duration="692000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1679581384460</created>
@@ -298,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679932620387</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="레디스 모듈 추가">
+      <created>1680868050882</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680868050882</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,6 +319,7 @@
     <MESSAGE value="modifu" />
     <MESSAGE value="modify" />
     <MESSAGE value="트랜잭션 TEST" />
-    <option name="LAST_COMMIT_MESSAGE" value="트랜잭션 TEST" />
+    <MESSAGE value="레디스 모듈 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="레디스 모듈 추가" />
   </component>
 </project>
