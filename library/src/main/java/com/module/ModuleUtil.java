@@ -1,4 +1,4 @@
-package com.module.util;
+package com.module;
 
 public class ModuleUtil {
     public static String printMsg(){
