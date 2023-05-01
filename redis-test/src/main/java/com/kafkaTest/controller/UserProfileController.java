@@ -1,7 +1,7 @@
-package com.redisTest.controller;
+package com.kafkaTest.controller;
 
-import com.redisTest.dto.UserProfile;
-import com.redisTest.service.UserService;
+import com.kafkaTest.dto.UserProfile;
+import com.kafkaTest.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

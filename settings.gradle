@@ -2,5 +2,6 @@ rootProject.name = 'myModules'
 include 'customer'
 include 'library'
 include 'redis-test'
+include 'kafka-test'
 
 

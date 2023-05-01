@@ -1,4 +1,4 @@
-package com.redisTest.dto;
+package com.kafkaTest.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

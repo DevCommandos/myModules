@@ -1,6 +1,6 @@
-package com.redisTest.service;
+package com.kafkaTest.service;
 
-import com.redisTest.dto.UserProfile;
+import com.kafkaTest.dto.UserProfile;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.data.redis.core.ValueOperations;

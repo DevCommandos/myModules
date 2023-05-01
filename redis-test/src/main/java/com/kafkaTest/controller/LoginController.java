@@ -1,4 +1,4 @@
-package com.redisTest.controller;
+package com.kafkaTest.controller;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.redis.core.StringRedisTemplate;

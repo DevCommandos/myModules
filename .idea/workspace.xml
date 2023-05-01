@@ -4,24 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22341651-9dd0-45c2-9232-b09800641ad8" name="Changes" comment="트랜잭션 TEST">
-      <change afterPath="$PROJECT_DIR$/redis-test/README.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-test/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-test/build/bootJarMainClassName" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-test/build/libs/customer-plain.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-test/build/libs/customer.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-test/build/resources/main/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-test/build/tmp/bootJar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-test/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-test/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-test/src/main/java/com/redisTest/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-test/src/main/java/com/redisTest/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-test/src/main/java/com/redisTest/config/RedisEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-test/src/main/java/com/redisTest/controller/RedisController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-test/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="22341651-9dd0-45c2-9232-b09800641ad8" name="Changes" comment="redis test">
+      <change afterPath="$PROJECT_DIR$/kafka-test/README.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-test/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-test/build/resources/main/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-test/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-test/src/main/java/com/kafkaTest/config/KafkaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-test/src/main/java/com/kafkaTest/config/KafkaEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-test/src/main/java/com/kafkaTest/controller/ProducerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-test/src/main/java/com/kafkaTest/service/ProducerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-test/src/main/java/com/kafkaTest/simpleConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-test/src/main/java/com/kafkaTest/simpleProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-test/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-test/src/main/java/com/kafkaTest/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maria-core/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maria-core/src/main/java/com/module/maria/config/MariaConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-test/src/main/java/com/redisTest/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-test/src/main/java/com/kafkaTest/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-test/src/main/java/com/redisTest/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-test/src/main/java/com/kafkaTest/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-test/src/main/java/com/redisTest/controller/UserProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-test/src/main/java/com/kafkaTest/controller/UserProfileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-test/src/main/java/com/redisTest/dto/UserProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-test/src/main/java/com/kafkaTest/dto/UserProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-test/src/main/java/com/redisTest/service/ExternalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-test/src/main/java/com/kafkaTest/service/ExternalService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-test/src/main/java/com/redisTest/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-test/src/main/java/com/kafkaTest/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +51,9 @@
         <task path="$PROJECT_DIR$/redis-test">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/kafka-test">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -59,18 +64,18 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="myModules" type="f1a62948:ProjectNode" />
-                <item name="redis-test" type="2d1252cf:ModuleNode" />
+                <item name="kafka-test" type="2d1252cf:ModuleNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="myModules" type="f1a62948:ProjectNode" />
-                <item name="redis-test" type="2d1252cf:ModuleNode" />
+                <item name="kafka-test" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="myModules" type="f1a62948:ProjectNode" />
-                <item name="redis-test" type="2d1252cf:ModuleNode" />
+                <item name="kafka-test" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="application" type="c8890929:TasksNode$1" />
               </path>
@@ -85,13 +90,21 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="2N6PuHTbHmsrT3gWJZerQ3cSMNb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -107,6 +120,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="17" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/redis-test/src/main/java/com" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -114,7 +128,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.12953371" />
     <property name="project.structure.side.proportion" value="0.14903128" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -128,16 +142,56 @@
       <recent name="C:\workspace\myModules\customer\src\main\resources\mapper\customer" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kafkaTest" />
       <recent name="com.customer.mapper" />
       <recent name="com.customer.service" />
       <recent name="com.customer.config" />
     </key>
   </component>
-  <component name="RunManager" selected="HTTP Request.generated-requests#4">
-    <configuration name="myModules:customer [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Spring Boot.Application kafka">
+    <configuration name="simpleConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kafkaTest.simpleConsumer" />
+      <module name="myModules.kafka-test.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kafkaTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="simpleProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kafkaTest.simpleProducer" />
+      <module name="myModules.kafka-test.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kafkaTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="myModules:kafka-test [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/customer" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/kafka-test" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -145,7 +199,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="build" />
+            <option value="bootJar" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -155,10 +209,10 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="myModules:redis-test [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="myModules:kafka-test [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/redis-test" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/kafka-test" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -179,12 +233,6 @@
     <configuration name="generated-requests#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="generated-requests#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="generated-requests#4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="4" runType="Run single request">
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -196,9 +244,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Application kafka" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="myModules.kafka-test.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kafkaTest.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application redis-test" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="myModules.redis-test.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.redisTest.Application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kafkaTest.Application" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SHORTEN_COMMAND_LINE" value="NONE" />
       <method v="2">
@@ -215,21 +272,22 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.myModules:customer [build]" />
-      <item itemvalue="Gradle.myModules:redis-test [bootRun]" />
+      <item itemvalue="Application.simpleProducer" />
+      <item itemvalue="Application.simpleConsumer" />
+      <item itemvalue="Gradle.myModules:kafka-test [bootJar]" />
+      <item itemvalue="Gradle.myModules:kafka-test [bootRun]" />
       <item itemvalue="HTTP Request.generated-requests#1" />
-      <item itemvalue="HTTP Request.generated-requests#2" />
-      <item itemvalue="HTTP Request.generated-requests#4" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.Application redis-test" />
+      <item itemvalue="Spring Boot.Application kafka" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.generated-requests#4" />
-        <item itemvalue="HTTP Request.generated-requests#2" />
+        <item itemvalue="Application.simpleConsumer" />
+        <item itemvalue="Application.simpleProducer" />
         <item itemvalue="HTTP Request.generated-requests#1" />
-        <item itemvalue="Gradle.myModules:redis-test [bootRun]" />
-        <item itemvalue="Gradle.myModules:customer [build]" />
+        <item itemvalue="Gradle.myModules:kafka-test [bootRun]" />
+        <item itemvalue="Gradle.myModules:kafka-test [bootJar]" />
       </list>
     </recent_temporary>
   </component>
@@ -255,6 +313,12 @@
       <workItem from="1680442242548" duration="14000" />
       <workItem from="1680442268220" duration="2057000" />
       <workItem from="1680619804059" duration="3018000" />
+      <workItem from="1682848398441" duration="1775000" />
+      <workItem from="1682851784947" duration="4000" />
+      <workItem from="1682851965380" duration="1771000" />
+      <workItem from="1682853765319" duration="19000" />
+      <workItem from="1682853807372" duration="2847000" />
+      <workItem from="1682942395636" duration="1676000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1679581384460</created>
@@ -298,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679932620387</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="redis test">
+      <created>1682848450316</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1682848450316</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,6 +405,7 @@
     <MESSAGE value="modifu" />
     <MESSAGE value="modify" />
     <MESSAGE value="트랜잭션 TEST" />
-    <option name="LAST_COMMIT_MESSAGE" value="트랜잭션 TEST" />
+    <MESSAGE value="redis test" />
+    <option name="LAST_COMMIT_MESSAGE" value="redis test" />
   </component>
 </project>

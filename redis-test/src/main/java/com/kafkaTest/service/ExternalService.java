@@ -1,4 +1,4 @@
-package com.redisTest.service;
+package com.kafkaTest.service;
 
 import org.springframework.stereotype.Service;
 
